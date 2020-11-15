@@ -1,0 +1,29 @@
+$color1: rosybrown;
+$color2: rgb(98, 98, 185);
+$colorfont: #ffff;
+
+body{
+  background-color: $color1;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 4rem auto;
+  
+  .redBackground {
+    background-color: $color2;
+
+    h1{
+      color: $colorfont;
+      text-align: center;
+    }
+  }
+ 
+  img {
+    display: block;
+    width: 20rem;
+    margin-top: 2rem;
+    align-self: center;
+  }
+}
